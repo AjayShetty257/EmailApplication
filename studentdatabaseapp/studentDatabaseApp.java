@@ -8,6 +8,7 @@ public class studentDatabaseApp {
         s1.enroll();
         s1.payTution();
         System.out.println(s1.showInfo());
+        System.out.println(s1.addStudentPercentage());
         //ask how many students we want to add
         System.out.println("Enter number of students you want to enroll");
         Scanner in=new Scanner(System.in);

@@ -71,4 +71,8 @@ public class student {
     public String showInfo(){
         return "Name"+firstName+" "+lastName+"/ncourses enrolled"+courses+"view balance"+tutionbalance;
     }
+
+    public int addStudentPercentage() {
+        return 100;
+    }
 }
